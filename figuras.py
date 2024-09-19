@@ -45,7 +45,7 @@ class Bloks(Kubs):
         else:
             print("Neatbilstoša kuba skaita vērtība!")
         self.__skaits = skaits
-        self.nosaukums = str(krasa)+str(self.__skaits)
+        self.nosaukums = str(krasa)+str(skaits)
         self.forma = forma
         formas_vertibas = [11,12,13,14,22]
 
@@ -75,6 +75,6 @@ print("Formas o nummurs ir",orange3.nosaukums, ", tā tilpums ir", orange3.tilpu
 
 
 blue5 = Bloks(7, "zila", 5, 23)
-print(blue5.nosaukums, blue5.derigums)
+print("Formas nosaukums ir ",blue5.nosaukums, ", tās derīguma cipars ir ",blue5.derigums, ".")
 blue5.mainit_formu(12)
 print("Formas b nummurs ir",blue5.nosaukums, ", tā tilpums ir", blue5.tilpums(), " cm3.")
